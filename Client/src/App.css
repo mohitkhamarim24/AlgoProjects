@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -39,3 +40,14 @@
 .blank{
   color: red;
 }
+=======
+div.container{
+  width: 50%;
+  margin-right: 10px;
+}
+div.container2{
+  margin-right: 5px;
+}
+
+
+>>>>>>> 36ff1a7 (Completed Login and Signup page)
