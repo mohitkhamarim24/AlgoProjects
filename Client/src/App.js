@@ -1,8 +1,5 @@
 import Navbar from './Navbar';
-<<<<<<< HEAD
-=======
 import Textform from './Textform';
->>>>>>> 36ff1a7 (Completed Login and Signup page)
 import './App.css';
 import { useState } from 'react';
 import Alert from './Alert';
@@ -56,11 +53,6 @@ function App(){
 <Navbar title = "Meet Code" mode={mode} toggleMode={togglemode} />
 <Alert alert = {alert} my-3/>
 <h1>Welcome to Meetcode</h1>
-<<<<<<< HEAD
-<textarea rows="20" cols="75" value={code} onChange={(e)=>{setcode(e.target.value)}} mode={mode}></textarea>
-<br />
-<button type="button" className="btn btn-success" onClick={handleSubmit}>Submit</button>
-=======
 <p>
 Code is the language of creation and innovation. It empowers you to solve real-world problems,
  connect with a global community, and leave a lasting legacy.
@@ -72,9 +64,8 @@ Code is the language of creation and innovation. It empowers you to solve real-w
 <Textform  value={code} onChange={(e)=>{setcode(e.target.value)}} mode={mode}></Textform>
 </div>
 <div className='container my-3'>
-<button type="button" className="btn btn-success" onClick={handleSubmit} >Submit</button>
+<button type="button" className="btn btn-success" onClick={handleSubmit}>Submit</button>
 </div>
->>>>>>> 36ff1a7 (Completed Login and Signup page)
 <p>{output}</p>
 </>
   );
